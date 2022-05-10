@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Responsive Design by Zarco</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -15,17 +15,93 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/custom.css">
 
   <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+  <div class="download-your-app">
+    <div class="download-your-app__row container">
+      <div class="download-your-app__col download-your-app__col--content">
+        <h2>Download App Now</h2>
+        <p class="download-your-app__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.</p>
+        <div class="download-your-app__store-buttons">
+          <a href="#" class="download-your-app__store-button">Google Play</a>
+          <a href="#" class="download-your-app__store-button">Apple Store</a>
+        </div>
+        <div class="download-your-app__stats">
+          <div class="download-your-app__stats-item">
+            <div>ICON</div>
+            <p>59865</p>
+            <p>Download</p>
+          </div>
+          <div class="download-your-app__stats-item">
+            <div>ICON</div>
+            <p>59865</p>
+            <p>Download</p>
+          </div>
+          <div class="download-your-app__stats-item">
+            <div>ICON</div>
+            <p>59865</p>
+            <p>Download</p>
+          </div>
+        </div>
+      </div>
+      <div class="download-your-app__col download-your-app__col--image">
+        <img class="download-your-app__col-image" src="img/app-design.png" alt="App Design Image">
+      </div>
+    </div>
+  </div>
+
+  <div class="blog-posts container">
+    <h2 class="blog-posts__title">Our recent blog</h2>
+    <p class="blog-posts__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae.</p>
+
+    <div class="blog-posts__list">
+      <div class="blog-posts__card">
+        <div class="blog-posts__card-image-wrapper">
+          <img class="blog-posts__card-image" src="https://picsum.photos/340/230" alt="Card Image">
+        </div>
+        <div class="blog-posts__card-content">
+          <h3 class="blog-posts__card-title">The Snap Pixel: How It Works and How to Install</h3>
+          <p class="blog-posts__card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.</p>
+          <a class="blog-posts__card-link" href="#">Read more</a>
+        </div>
+      </div>
+  
+      <div class="blog-posts__card">
+        <div class="blog-posts__card-image-wrapper">
+          <img class="blog-posts__card-image" src="https://picsum.photos/340/230" alt="Card Image">
+        </div>
+        <div class="blog-posts__card-content">
+          <h3 class="blog-posts__card-title">The Snap Pixel: How It Works and How to Install</h3>
+          <p class="blog-posts__card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.</p>
+          <a class="blog-posts__card-link" href="#">Read more</a>
+        </div>
+      </div>
+  
+      <div class="blog-posts__card">
+        <div class="blog-posts__card-image-wrapper">
+          <img class="blog-posts__card-image" src="https://picsum.photos/340/230" alt="Card Image">
+        </div>
+        <div class="blog-posts__card-content">
+          <h3 class="blog-posts__card-title">The Snap Pixel: How It Works and How to Install</h3>
+          <p class="blog-posts__card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.</p>
+          <a class="blog-posts__card-link" href="#">Read more</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>

@@ -1,0 +1,181 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+  max-width: 1010px;
+  margin: 0 auto;
+}
+
+.blog-posts {
+  padding: 0 16px;
+}
+
+.blog-posts__title {
+  font-size: 25px;
+  color: #232233;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.blog-posts__description {
+  font-size: 16px;
+  color: #6C6C72;
+  font-weight: 400;
+  text-align: center;
+}
+
+.blog-posts__card {
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.blog-posts__card-image {
+  width: 100%;
+}
+
+.blog-posts__card-content {
+  padding: 30px 18px;
+}
+
+.blog-posts__card-title {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.blog-posts__card-description {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.blog-posts__card-link {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #5956E9;
+}
+
+.blog-posts__card {
+  margin-bottom: 40px;
+}
+
+.blog-posts__card:last-child {
+  margin-bottom: 0;
+}
+
+/* Tablet and Desktop */
+@media (min-width: 768px) {
+  .blog-posts__list {
+    display: flex;
+    gap: 30px;
+  }
+
+  .blog-posts__card {
+    margin-bottom: 0;
+  }
+}
+
+/* Tablet Only */
+@media (min-width: 768px) and (max-width: 991px) {
+  .blog-posts__card-description {
+    display: none;
+  }
+}
+
+.download-your-app {
+  padding-top: 120px;
+  padding-bottom: 160px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.download-your-app__row {
+  display: flex;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+
+.download-your-app__stats {
+  display: flex;
+  gap: 30px;
+}
+
+.download-your-app__store-buttons {
+  margin-bottom: 60px;
+  gap: 25px;
+}
+
+.download-your-app__stats-item {
+  background-color: #5851EA;
+  color: white;
+  padding: 20px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.download-your-app__store-button {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.download-your-app__description {
+  margin-bottom: 40px;
+}
+
+.download-your-app__col--content {
+  flex: 1;
+}
+
+.download-your-app__col--image {
+  flex-basis: 500px;
+  flex-grow: 0;
+}
+
+.download-your-app__col-image {
+  max-width: 100%;
+}
+
+/* Mobile Only */
+@media (max-width: 767px) {
+  .download-your-app__row {
+    flex-direction: column;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .download-your-app {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .download-your-app__stats {
+    display: none;
+  }
+  .download-your-app__store-buttons {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .download-your-app__store-button {
+    text-align: center;
+  }
+}
+
+/* Tablet Only */
+@media (min-width: 768px) and (max-width: 991px) {
+  .download-your-app__row {
+    gap: 30px;
+    flex-wrap: nowrap;
+  }
+}
